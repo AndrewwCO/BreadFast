@@ -1,0 +1,38 @@
+export const PRODUCTS = [
+  {
+    id: 1,
+    name: 'Sourdough Loaf',
+    status: 'Ready now',
+    price: '€4.50',
+    emoji: '🍞',
+    description: 'Classic sourdough with a crispy crust and tangy flavor.',
+    readyTime: null,
+  },
+  {
+    id: 2,
+    name: 'Baguette',
+    status: 'Ready now',
+    price: '€2.80',
+    emoji: '🥖',
+    description: 'Traditional French baguette with a golden, crispy crust.',
+    readyTime: null,
+  },
+  {
+    id: 3,
+    name: 'Croissant',
+    status: 'Ready 10:30',
+    price: '€2.20',
+    emoji: '🥐',
+    description: 'Buttery, flaky croissant baked fresh every morning.',
+    readyTime: '10:30',
+  },
+  {
+    id: 4,
+    name: 'Multigrain Bread',
+    status: 'Ready 11:00',
+    price: '€5.00',
+    emoji: '🍞',
+    description: 'Hearty multigrain loaf packed with seeds and grains.',
+    readyTime: '11:00',
+  },
+];
